@@ -1,0 +1,95 @@
+.btn-buy{
+    float: right;
+    color: white;
+    font-family: cursive;
+    margin: 5px;
+}
+
+
+.contenido{
+    padding-top: 60px;
+}
+
+.grid-product > .col-sm-3{
+    margin-bottom: 25px;
+}
+
+.img-grid-product{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px !important;
+    background-position: center;
+
+}
+.img-product-crud{
+    height: 50px;
+    width: 40px;
+}
+
+.new-product{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.table td, .table th {
+    padding: .4rem !important;
+}
+
+table td > form{
+    display: -webkit-inline-box;
+}
+
+.text-grid-product{
+    padding: 5px;
+    padding-right: 35px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.text-grid-product > .category{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 10px;
+    background: black;
+    width: fit-content;
+    width: max-content;
+    padding: 2px 14px;
+    margin-top: 4px;
+}
+
+.text-grid-product > .title{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+.text-grid-product > .price{
+    float: right;
+    background: white;
+    padding: 3px 15px;
+    width: 115px;
+    font-family: cursive;
+    font-weight: 600;
+    box-shadow: -1px 3px 3px;
+    margin: 2px 0px;
+}
+
+.top-bar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.top-bar > nav > div >ul{
+    right: 0px;
+    position: absolute;
+}
+

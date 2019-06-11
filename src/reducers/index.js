@@ -1,21 +1,24 @@
-import { combineReducers } from 'redux'
-import { HELLO_WORLD, RESET } from './../actions'
+import { combineReducers } from 'redux';
+import products from './products_reducer';
+import product from './product_reducer';
+import categories from './categories_reducer';
+import category from './category_reducer';
+import users from './users_reducer';
+import user from './user_reducer';
+import car from './car_reducer';
+import checkout from './checkout_reducer';
+import orders from './orders_reducer';
 
-let initialState = { message: 'Hello' }
+const rootReducers = combineReducers({
+    products,
+    product,
+    categories,
+    category,
+    users,
+    user,
+    car,
+    checkout,
+    orders
+});
 
-const helloWorld = (state=initialState, action) => {
-  switch (action.type) {
-    case HELLO_WORLD:
-      return Object.assign({}, state, { message: 'Hello, World!' })
-    case RESET:
-    	return state = initialState 
-    default:
-      return state
-  }
-}
-
-const helloReducer = combineReducers({
-  helloWorld
-})
-
-export default helloReducer
+export default rootReducers;
